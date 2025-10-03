@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسة سويع</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="school-title">مركز فضاء اخميش للتربية و التكوين</h1>
+        <button id="lang-btn">FR</button>
+        <nav>
+            <ul>
+                <li><a href="math.html" data-key="math">رياضيات</a></li>
+                <li><a href="physics.html" data-key="physics">فيزياء</a></li>
+                <li><a href="english.html" data-key="english">إنجليزية</a></li>
+                <li><a href="french.html" data-key="french">فرنسية</a></li>
+                <li><a href="svt.html" data-key="svt">علوم الحياة والأرض</a></li>
+                <li><a href="kids.html" data-key="kids">روض ونادي الأطفال</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <!-- السلايدر -->
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="images/school.jpg" alt="تعليم حديث">
+                <div class="caption">مرحباً بكم في مركز فضاء اخميش للتربية و التكوين</div>
+            </div>
+            <div class="slide">
+                <img src="images/slide2.jpg" alt="دروس رياضيات">
+                <div class="caption"></div>
+            </div>
+            <div class="slide">
+                <img src="images/slide3.jpg" alt="تعليم اللغات">
+                <div class="caption">المواكبة و التاطير طيلة المشوار الدراسي</div>
+            </div>
+            <div class="slide">
+                <img src="images/lang.jpg" alt="تعليم اللغات">
+                <div class="caption">تعلم اللغات بطريقة ممتعة</div>
+            </div>
+            <div class="slide">
+                <img src="images/kids.jpg" alt="تعليم اللغات">
+                <div class="caption"> روض ونادي الاطفال مابين 3 سنوات و 5 سنوات</div>
+            </div>
+        </div>
+
+        <!-- أزرار التنقل -->
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+
+    <main>
+        <a href="math.html" class="card-link">
+            <section id="math" class="card">
+                <img src="images/math.jpg" alt="Mathématiques">
+                <div class="content">
+                    <h2 data-key="math-title">رياضيات</h2>
+                    <p data-key="math-desc">دروس وتمارين في مادة الرياضيات لجميع المستويات.</p>
+                </div>
+            </section>
+        </a>
+
+        <a href="physics.html" class="card-link">
+            <section id="physics" class="card">
+                <img src="images/physics.jpg" alt="Physique">
+                <div class="content">
+                    <h2 data-key="physics-title">فيزياء</h2>
+                    <p data-key="physics-desc">دروس وتمارين في مادة الفيزياء مع تجارب وأمثلة.</p>
+                </div>
+            </section>
+        </a>
+
+        <a href="english.html" class="card-link">
+            <section id="english" class="card">
+                <img src="images/english.jpg" alt="Anglais">
+                <div class="content">
+                    <h2 data-key="english-title">إنجليزية</h2>
+                    <p data-key="english-desc">تمارين وقواعد اللغة الإنجليزية لتطوير المهارات.</p>
+                </div>
+            </section>
+        </a>
+
+        <a href="french.html" class="card-link">
+            <section id="french" class="card">
+                <img src="images/french.jpg" alt="Français">
+                <div class="content">
+                    <h2 data-key="french-title">فرنسية</h2>
+                    <p data-key="french-desc">دروس وتمارين اللغة الفرنسية لجميع المستويات.</p>
+                </div>
+            </section>
+        </a>
+
+        <a href="svt.html" class="card-link">
+            <section id="svt" class="card">
+                <img src="images/svt2.jpg" alt="Sciences de la Vie et de la Terre">
+                <div class="content">
+                    <h2 data-key="svt-title">علوم الحياة والأرض</h2>
+                    <p data-key="svt-desc">دروس وتمارين في علوم الحياة والأرض لجميع المستويات.</p>
+                </div>
+            </section>
+        </a>
+
+        <a href="kids.html" class="card-link">
+            <section id="kids" class="card">
+                <img src="images/kids2.jpg" alt="روض ونادي الاطفال">
+                <div class="content">
+                    <h2 data-key="kids-title">روض ونادي الاطفال</h2>
+                    <p data-key="kids-desc">روض ونادي الاطفال مابين 3 سنوات و 5 سنوات</p>
+                </div>
+            </section>
+        </a>
+    </main>
+
+
+    <footer>
+        <p id="footer-text">© 2025 مركز فضاء اخميش للتربية و التكوين. جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
